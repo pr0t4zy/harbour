@@ -20,27 +20,12 @@
   <title>HarbOUR | Elsau</title>
 </head>
 
-<script>
-  function isScrolledIntoView(el) {
-    var rect = el.getBoundingClientRect();
-    var elemTop = rect.top;
-    var elemBottom = rect.bottom;
-    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-    return isVisible;
-  }
-  function checkScroll() {
-    var elt = document.getElementById('postulez_button');
-    let scrolled = isScrolledIntoView(elt);
-    console.log('scroll: ' + scrolled);
-  }
-  window.addEventListener('scroll', checkScroll);
-</script>
 <body>
 
     <!--Offer Alert ================================ -->
      <div class="offer-alert">
        <div class="offer-alert__container container">
-         <span>Envie de rejoindre un groupe qui a initié un projet d'habitat participatif écologique?</span> <a href='#contact-us' class="offer-alert__btn">Postulez maintenant</a>
+         <span>Envie de rejoindre rejoindre un groupe qui a initié un projet d'habitat participatif écologique?</span> <a href='https://forms.gle/zXwdti5APKpJ78z49' class="offer-alert__btn">Postulez maintenant</a>
        </div>
      </div>
     
@@ -368,7 +353,7 @@
         Participez au projet.
         </p>
       </div>
-      <div id='postulez_button' class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
+      <div class="col-lg-8 col-xl-7 mx-auto text-center mb-5">
       <a href='https://forms.gle/zXwdti5APKpJ78z49' class="offer-alert__btn">Postulez maintenant</a>
       </div>
     </div>
