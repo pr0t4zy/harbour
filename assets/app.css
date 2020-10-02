@@ -1419,3 +1419,7 @@ textarea.contact-form__input {
   line-height: 1.7;
   opacity: .8;
 }
+
+li {
+  margin-bottom: 5px;
+}
